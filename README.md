@@ -29,7 +29,7 @@ Data columns (total 15 columns):
 
            Year	Month	DayofMonth	DayOfWeek	Actual_Shipment_Time	Planned_Shipment_Time	Planned_Delivery_Time	Carrier_Name	Carrier_Num	Planned_TimeofTravel	Shipment_Delay	Source	Destination	Distance	Delivery_Status
  
-            0  	2008	  1  	3	  4	  1203.0	  1195  	1345	  WN  	335  	150.0	  8.0	  IAD	  TPA	  810  	0
+            0  	2008	      1  	3	  4	  1203.0	  1195  	1345	  WN  	335  	150.0	  8.0	  IAD	  TPA	  810  	0
             
             1	  2008	  1  	3	  4	  474.0	    455    	600	    WN	  3231	145.0	  19.0	IAD	  TPA	  810	  1
             
