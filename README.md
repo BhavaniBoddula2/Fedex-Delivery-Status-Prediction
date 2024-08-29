@@ -27,6 +27,9 @@ Data columns (total 15 columns):
              14   Delivery_Status         float64
 
 
+![Screenshot 2024-08-29 160437](https://github.com/user-attachments/assets/4b8612db-1918-471e-a869-f6966bc1e6e3)
+
+
             
 
 Fedex-data  file ink : https://www.kaggle.com/datasets/vasudevmaduri/fedexdata/data
