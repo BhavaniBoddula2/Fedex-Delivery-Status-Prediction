@@ -15,10 +15,9 @@ categorical_features = {
     'Month': [1, 2, 3, 4, 5, 6],  
     'DayofMonth': list(range(1, 32)),
     'DayOfWeek': list(range(1, 8)),  
-    'Carrier_Name': ['WN', 'XE', 'YV', 'OH', 'OO', 'UA', 'US', 'DL', 'EV', 'F9', 'FL',
-       'HA', 'MQ', 'NW', '9E', 'AA', 'AQ', 'AS', 'B6', 'CO']
-}
-categories = ['Source', 'Destination']
+    'Carrier_Name': ['WN', 'XE', 'YV', 'OH', 'OO', 'UA', 'US', 'DL', 'EV', 'F9', 'FL','HA', 'MQ', 'NW', '9E', 'AA', 'AQ', 'AS', 'B6', 'CO'],
+    'Source':['ATL','ORD','DFW','DEN','LAX','PHX','IAH','LAS','DTW','EWR','SLC','SFO','MSP','MCO','CLT','LGA','BOS','JFK','SEA','BWI'],
+    'Destination':['ATL','ORD','DFW','DEN','LAX','PHX','IAH','LAS','DTW','EWR','SLC','SFO','MSP','MCO','CLT','LGA','BOS','JFK','SEA','BWI']}
 
 # Collect user input for numerical features
 input_data = {}
@@ -28,9 +27,6 @@ for feature in numerical_features:
 # Collect user input for categorical features using dropdowns
 for feature, options in categorical_features.items():
     input_data[feature] = st.selectbox(f'Select {feature}', options)
-
-for feature in categories:
-    input_data[feature] = st.text_input(" Enter  : {}".format(feature))
 
 st.write("Enter Actual Shipment Time")
 hours1 = st.selectbox("Select hours", list(range(0, 24)), key="hours1")
