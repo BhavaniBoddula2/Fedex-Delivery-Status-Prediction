@@ -27,7 +27,6 @@ Data columns (total 15 columns):
              14   Delivery_Status         float64
 
 
-![Screenshot 2024-08-29 160437](https://github.com/user-attachments/assets/4b8612db-1918-471e-a869-f6966bc1e6e3) ![Screenshot 2024-08-29 162100](https://github.com/user-attachments/assets/5744af74-bbbf-42f8-a5b2-5c676e679f23)
 
 
 
